@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Browser Suite">
+    
+    <parameter name="browser" value="chrome"/>
+
+    <test name="Browser Test">
+        <classes>
+            <class name="udemy.OpenBrowserDynamically"/>
+        </classes>
+    </test>
+
+</suite>
