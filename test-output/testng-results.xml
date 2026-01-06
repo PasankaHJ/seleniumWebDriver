@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-04T21:04:32 IST" name="Default suite" finished-at="2026-01-04T21:05:22 IST" duration-ms="49985">
+  <suite started-at="2026-01-06T08:36:13 IST" name="Default suite" finished-at="2026-01-06T08:43:53 IST" duration-ms="460935">
     <groups>
     </groups>
-    <test started-at="2026-01-04T21:04:32 IST" name="Default test" finished-at="2026-01-04T21:05:22 IST" duration-ms="49985">
-      <class name="udemy.ExtractMultipleElements">
-        <test-method is-config="true" signature="openApplication()[pri:0, instance:udemy.ExtractMultipleElements@636be97c]" started-at="2026-01-04T21:04:32 IST" name="openApplication" finished-at="2026-01-04T21:05:04 IST" duration-ms="32078" status="PASS">
+    <test started-at="2026-01-06T08:36:13 IST" name="Default test" finished-at="2026-01-06T08:43:53 IST" duration-ms="460935">
+      <class name="udemy.BrokenLinks">
+        <test-method is-config="true" signature="openWebSite()[pri:0, instance:udemy.BrokenLinks@50a638b5]" started-at="2026-01-06T08:36:13 IST" name="openWebSite" finished-at="2026-01-06T08:37:17 IST" duration-ms="64194" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method signature="findNumberOfLinksOnWebPage()[pri:0, instance:udemy.ExtractMultipleElements@636be97c]" started-at="2026-01-04T21:05:04 IST" name="findNumberOfLinksOnWebPage" finished-at="2026-01-04T21:05:21 IST" duration-ms="17223" status="PASS">
+        </test-method> <!-- openWebSite -->
+        <test-method signature="findBrokenLinks()[pri:0, instance:udemy.BrokenLinks@50a638b5]" started-at="2026-01-06T08:37:17 IST" name="findBrokenLinks" finished-at="2026-01-06T08:43:52 IST" duration-ms="395409" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findNumberOfLinksOnWebPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:udemy.ExtractMultipleElements@636be97c]" started-at="2026-01-04T21:05:21 IST" name="closeBrowser" finished-at="2026-01-04T21:05:22 IST" duration-ms="647" status="PASS">
+        </test-method> <!-- findBrokenLinks -->
+        <test-method is-config="true" signature="finish()[pri:0, instance:udemy.BrokenLinks@50a638b5]" started-at="2026-01-06T08:43:52 IST" name="finish" finished-at="2026-01-06T08:43:53 IST" duration-ms="1186" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- udemy.ExtractMultipleElements -->
+        </test-method> <!-- finish -->
+      </class> <!-- udemy.BrokenLinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
