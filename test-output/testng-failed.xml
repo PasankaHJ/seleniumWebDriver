@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="udemy.HardCodeWaits">
+      <class name="udemy.HandleiFrames">
         <methods>
-          <include name="googleSearchTest"/>
+          <include name="handleiFrames"/>
+          <include name="openApplication"/>
+          <include name="finish"/>
         </methods>
-      </class> <!-- udemy.HardCodeWaits -->
+      </class> <!-- udemy.HandleiFrames -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
