@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="udemy.HandleiFrames">
+      <class name="udemy.HandleDropDowns">
         <methods>
-          <include name="handleiFrames"/>
-          <include name="openApplication"/>
-          <include name="finish"/>
+          <include name="openWebsite"/>
+          <include name="handleMultiSelectDropDown"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- udemy.HandleiFrames -->
+      </class> <!-- udemy.HandleDropDowns -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
