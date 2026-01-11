@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-10T21:26:07 IST" name="Default suite" finished-at="2026-01-10T21:26:30 IST" duration-ms="22984">
+  <suite started-at="2026-01-12T00:19:30 IST" name="Default suite" finished-at="2026-01-12T00:19:38 IST" duration-ms="8394">
     <groups>
     </groups>
-    <test started-at="2026-01-10T21:26:07 IST" name="Default test" finished-at="2026-01-10T21:26:30 IST" duration-ms="22984">
-      <class name="udemy.HandleDropDowns">
-        <test-method is-config="true" signature="openWebsite()[pri:0, instance:udemy.HandleDropDowns@50a638b5]" started-at="2026-01-10T21:26:07 IST" name="openWebsite" finished-at="2026-01-10T21:26:10 IST" duration-ms="2436" status="PASS">
+    <test started-at="2026-01-12T00:19:30 IST" name="Default test" finished-at="2026-01-12T00:19:38 IST" duration-ms="8394">
+      <class name="udemy.TakeScreenShot">
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:udemy.TakeScreenShot@41e36e46]" started-at="2026-01-12T00:19:30 IST" name="openWebsite" finished-at="2026-01-12T00:19:34 IST" duration-ms="3817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebsite -->
-        <test-method signature="handleMultiSelectDropDown()[pri:0, instance:udemy.HandleDropDowns@50a638b5]" started-at="2026-01-10T21:26:10 IST" name="handleMultiSelectDropDown" finished-at="2026-01-10T21:26:29 IST" duration-ms="18775" status="PASS">
+        <test-method signature="captureScreenShot()[pri:0, instance:udemy.TakeScreenShot@41e36e46]" started-at="2026-01-12T00:19:34 IST" name="captureScreenShot" finished-at="2026-01-12T00:19:38 IST" duration-ms="4124" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleMultiSelectDropDown -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:udemy.HandleDropDowns@50a638b5]" started-at="2026-01-10T21:26:29 IST" name="closeBrowser" finished-at="2026-01-10T21:26:30 IST" duration-ms="1737" status="PASS">
+        </test-method> <!-- captureScreenShot -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:udemy.TakeScreenShot@41e36e46]" started-at="2026-01-12T00:19:38 IST" name="closeBrowser" finished-at="2026-01-12T00:19:38 IST" duration-ms="403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- udemy.HandleDropDowns -->
+      </class> <!-- udemy.TakeScreenShot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
