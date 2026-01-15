@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="udemy.TakeScreenShot">
+      <class name="udemy.HandleMultipleTabs">
         <methods>
-          <include name="captureScreenShot"/>
+          <include name="multipleWindowHandle"/>
           <include name="openWebsite"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- udemy.TakeScreenShot -->
+      </class> <!-- udemy.HandleMultipleTabs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
