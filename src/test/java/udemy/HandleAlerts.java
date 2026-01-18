@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class HandleAlerts {
 	WebDriver driver = null;
@@ -26,7 +27,7 @@ public class HandleAlerts {
 		driver.quit();
 	}
 	
-	//@Test
+	@Test
 	public void handleAlertsTest() {
 		Assert.assertEquals(driver.getTitle(), "Rediff.com: News | Rediffmail | Stock Quotes | Rediff Gurus");
 		
@@ -35,14 +36,18 @@ public class HandleAlerts {
 		driver.findElement(By.xpath("(//input[@id='login1'])[1]")).sendKeys("test");
 		driver.findElement(By.xpath("//button[normalize-space()='Log In']")).click();
 		
-		Alert alert = driver.switchTo().alert();
-		Assert.assertEquals(alert.getText(), "Please enter your password") ;
+		Alert alert1 = driver.switchTo().alert();
+		Assert.assertEquals(alert1.getText(), "Please enter your password") ;
 		
-		alert.accept();
+		alert1.accept();
 		
+		driver.findElement(By.xpath("(//input[@id='login1'])[1]")).clear();
 		driver.findElement(By.xpath("//input[@id='password']")).sendKeys("test@123");
+		driver.findElement(By.xpath("//button[normalize-space()='Log In']")).click();
 		
+		Alert alert2 = driver.switchTo().alert();
+		Assert.assertEquals(alert2.getText(), "Please enter a valid user name") ;
 		
-		
+		alert2.accept();
 	}
 }

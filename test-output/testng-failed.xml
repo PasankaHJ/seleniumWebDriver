@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="udemy.HandleMultipleTabs">
+      <class name="udemy.FileUpload">
         <methods>
-          <include name="multipleWindowHandle"/>
           <include name="openWebsite"/>
+          <include name="uploadFileTest"/>
           <include name="closeBrowser"/>
         </methods>
-      </class> <!-- udemy.HandleMultipleTabs -->
+      </class> <!-- udemy.FileUpload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

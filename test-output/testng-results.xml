@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-14T20:37:11 IST" name="Default suite" finished-at="2026-01-14T20:37:26 IST" duration-ms="15579">
+  <suite started-at="2026-01-17T22:16:33 IST" name="Default suite" finished-at="2026-01-17T22:16:50 IST" duration-ms="17762">
     <groups>
     </groups>
-    <test started-at="2026-01-14T20:37:11 IST" name="Default test" finished-at="2026-01-14T20:37:26 IST" duration-ms="15579">
-      <class name="udemy.HandleMultipleTabs">
-        <test-method is-config="true" signature="openWebsite()[pri:0, instance:udemy.HandleMultipleTabs@50b472aa]" started-at="2026-01-14T20:37:11 IST" name="openWebsite" finished-at="2026-01-14T20:37:16 IST" duration-ms="5411" status="PASS">
+    <test started-at="2026-01-17T22:16:33 IST" name="Default test" finished-at="2026-01-17T22:16:50 IST" duration-ms="17762">
+      <class name="udemy.FileUpload">
+        <test-method is-config="true" signature="openWebsite()[pri:0, instance:udemy.FileUpload@6ca8564a]" started-at="2026-01-17T22:16:33 IST" name="openWebsite" finished-at="2026-01-17T22:16:39 IST" duration-ms="6669" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openWebsite -->
-        <test-method signature="multipleWindowHandle()[pri:0, instance:udemy.HandleMultipleTabs@50b472aa]" started-at="2026-01-14T20:37:16 IST" name="multipleWindowHandle" finished-at="2026-01-14T20:37:25 IST" duration-ms="9265" status="PASS">
+        <test-method signature="uploadFileTest()[pri:0, instance:udemy.FileUpload@6ca8564a]" started-at="2026-01-17T22:16:39 IST" name="uploadFileTest" finished-at="2026-01-17T22:16:50 IST" duration-ms="10683" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- multipleWindowHandle -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:udemy.HandleMultipleTabs@50b472aa]" started-at="2026-01-14T20:37:25 IST" name="closeBrowser" finished-at="2026-01-14T20:37:26 IST" duration-ms="830" status="PASS">
+        </test-method> <!-- uploadFileTest -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:udemy.FileUpload@6ca8564a]" started-at="2026-01-17T22:16:50 IST" name="closeBrowser" finished-at="2026-01-17T22:16:50 IST" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- udemy.HandleMultipleTabs -->
+      </class> <!-- udemy.FileUpload -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
